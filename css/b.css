@@ -1,0 +1,153 @@
+*{
+	padding:0;
+	margin:0;
+	border:0;
+}
+body{
+	background-color: white;
+}
+#logo{
+	background-color: white;
+	text-align: center;
+	color:black;
+	padding: 40px;
+	font-size: 20px;
+	margin: 0;
+}
+
+#menu{
+	background-color: #FAF9F6;
+	overflow: hidden;
+}
+
+.menu_left,.menu_right{
+	color:black;
+	display: block;
+	padding: 14px 20px;
+	text-align: center;
+	font-size: 15px;
+	
+}
+
+.menu_left{
+	float:left;
+}
+.menu_right{
+	float:right;
+}
+#flex_container{
+	display: flex;
+	flex-wrap: nowrap;
+
+}
+#left_side{
+	background-color: black;
+	flex:80%;
+	
+}
+
+#right_side{
+	background-color:black;
+	flex:20%;
+	padding:30px 20px 20px 20px;
+	text-align: center;
+	color:white;
+	padding-top: 100px;
+
+}
+
+.watch_item{
+	flex:33%;
+	text-align: center;
+	color:white;
+	padding: 50px;
+
+}
+.watch_img{
+	width: 100%;
+}
+
+.watch_name{
+	font-size: 90%;
+	font-weight: blod;
+	padding:10px 20px;
+}
+
+#watch_container{
+	display:flex;
+	flex-wrap: warp;
+	
+}
+.watch_desc{
+	font-size: 80%;
+	padding:10px 20px;
+}
+
+
+#intro{
+	background-color: black;
+	padding:200px 60px 0 60px;
+	color:white;
+}
+.intro_title{
+	margin-left: 20px;
+}
+.intro_desc{
+	font-size: 100%;
+	text-align: center;
+	padding-top: 30px;
+
+} 
+
+#blue{
+	background-color: black;
+	padding-top: 100px;
+	padding-left: 50px;
+	padding-right:50px;
+	padding-bottom: 100px;
+	display: flex;
+	flex-wrap: nowrap;
+
+	
+
+}
+
+
+.blue_item{
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+ 
+ }
+ 	 
+
+
+footer{
+	padding:50px;
+	background-color:white;
+	color:white;
+	text-align: center;
+	font-size: 20px;
+
+}
+footer >a{
+	color:white;
+}
+
+@media(max-width: 800px) {
+	#left_side {
+		flex: 100%;
+	}
+
+	#right_side {
+		flex: 100%;
+	}
+	#flex_container{
+		flex-wrap: wrap;
+
+	}
+	.watch_item{
+		flex:100%;
+
+	
+}
